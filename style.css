@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:black;
+    color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social img {
+    width: 30px;
+    margin-left: 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: 90px;
+    width: 40%;
+  }
+  .navbar1{
+    display:flex;
+  }
+  .one{
+    margin:2px auto;
+    
+  }
+  .two{
+    margin:2px auto;
+    
+  }
+  .navbar2{
+    display:flex;
+  }
+  
+  .box1{
+    width:400px;
+    height:400px;
+    padding:20px;
+    margin:10px auto;
+    box-shadow: 0px 0px 10px 2px grey;
+    border:10px solid powerblue;
+    background-image:url(https://images.unsplash.com/photo-1562572159-4efc207f5aff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1vZGVsfGVufDB8fDB8fHww);
+    background-size:cover;
+  }
+  .box2{
+    width:400px;
+    height:400px;
+    padding:20px;
+    margin:10px auto;
+    box-shadow: 0px 0px 10px 2px grey;
+    border:10px solid powerblue;
+    background-image:url(https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size :cover;
+  }

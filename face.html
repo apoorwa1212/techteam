@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Suitable Clothes Decision</title>
+    <link rel="stylesheet" href="face.css">
+</head>
+<body background color="">
+    <div class="container">
+        <h1>Face Suitable Clothes Decision Web</h1>
+        <div class="form">
+            <label for="faceShape">Select your face shape:</label>
+            <select id="faceShape">
+                <option value="oval">Oval</option>
+                <option value="round">Round</option>
+                <option value="square">Square</option>
+                <option value="heart">Heart</option>
+                <option value="diamond">Diamond</option>
+                <option value="oblong">Oblong</option>
+                <option value="triangle">Triangle</option>
+            </select>
+            <button onclick="decideClothes()">Decide Clothes</button>
+        </div>
+        <div id="output"></div>
+    </div>
+
+    <script src="face.js"></script>
+</body>
+</html>
